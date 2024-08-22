@@ -1,5 +1,7 @@
 # Scripts Pós Instalação Windows 10/11 x86_64
 
+![Menu Inicial](Screenshot_1.png)
+
 ## Dependências
 
 * [Winget][def]
