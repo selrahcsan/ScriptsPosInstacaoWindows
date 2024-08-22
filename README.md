@@ -12,3 +12,6 @@ Baixe o código usando o git clone:
 git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 ```
 
+## Executando o Script
+
+Execute o arquivo ProgramasPadrao.bat e escolha a opção que melhor, lhe atente.
