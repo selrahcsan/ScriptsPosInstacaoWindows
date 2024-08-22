@@ -75,6 +75,6 @@ goto menu
 :opcao3
     cls
     echo Obrigado %username% por Usar esse script.
-    echo Acesse  para deixar seu Feedback.
+    echo Acesse https://github.com/selrahcsan/ScriptsPosInstacaoWindows para deixar seu Feedback.
     pause
     exit
