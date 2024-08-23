@@ -2,11 +2,15 @@
 
 ![Menu Inicial](Screenshot_1.png)
 
+## Sobre
+
+Esses scripts tem por finalidade, automatizar, o processo de Pós Instalação, no momento está em faze *beta*, então verifique o **código**, antes de executar.
+
 ## Dependências
 
 * [Winget][def]
 
-## Obtendo o Script
+## Obtendo os Scripts
 
 Baixe o código usando o git clone:
 
@@ -14,9 +18,13 @@ Baixe o código usando o git clone:
 git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 ```
 
-## Instalação Programas Padrão
+## ***Atenção***
 
-Execute o arquivo ProgramasPadrao.bat e escolha a opção que melhor, lhe atente.
+Execute os scripts com poderes de administrador
+
+![Executar como Administrador](Screenshot_2.png)
+
+## Instalação Programas Padrão - Programas Padrao.bat
 
 ### Instalação de x84
 
@@ -29,6 +37,13 @@ Inclui os seguintes programas:
 
 Inclui os seguintes programas:
 
-*
+* Oracle Java 8
+* Mozilla Firefox
+* Google Chrome
+* Adobe Acrobat Reader.64-bit
+* WinRAR
+* K-LiteCodecPack Full
+
+## Alterar Nome do Computador
 
 [def]: https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab
