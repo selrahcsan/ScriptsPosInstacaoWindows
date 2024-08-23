@@ -14,8 +14,21 @@ Baixe o código usando o git clone:
 git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 ```
 
-## Executando o Script
+## Instalação Programas Padrão
 
 Execute o arquivo ProgramasPadrao.bat e escolha a opção que melhor, lhe atente.
+
+### Instalação de x84
+
+Inclui os seguintes programas:
+
+* Adobe Acrobat.Reader
+* K-LiteCodecPack.Full
+
+### Instalação de x64
+
+Inclui os seguintes programas:
+
+*
 
 [def]: https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab
