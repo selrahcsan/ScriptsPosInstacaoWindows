@@ -20,11 +20,13 @@ git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 
 ## ***Atenção***
 
-Execute os scripts com poderes de administrador
+Execute os scripts com poderes de **Administrador**
 
 ![Executar como Administrador](Screenshot_2.png)
 
 ## Instalação Programas Padrão - Programas Padrao.bat
+
+Script de automação de instalção de programas, usando o winget no moodo silencioso.
 
 ### Instalação de x84
 
@@ -44,6 +46,8 @@ Inclui os seguintes programas:
 * WinRAR
 * K-LiteCodecPack Full
 
-## Alterar Nome do Computador
+## Alterar Nome do Computador -AlterarNomeComputador.bat
+
+Script para facilitar a troca de nome do Hostname, caso seja necessário.
 
 [def]: https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab
