@@ -26,7 +26,7 @@ if %escolha%==2 goto opcao2
     echo Nome Atual: %computername%
     echo ======================================================  
     set /p novoHostname=Digite o novo nome:
-    goto:alterarHostname
+    goto:menuAlterarHostname
 
 ::Opção que finaliza o Script
 :opcao2
@@ -35,29 +35,27 @@ if %escolha%==2 goto opcao2
     pause
     exit
 
-::Altera o nome do computador
-:alterarHostname
+::Menu Altera o nome do computador
+:menuAlterarHostname
     cls
     echo ======================================================
     echo +          Trocar Hostname             0.0.1v        +
     echo ======================================================  
     echo Nome Atual: %computername% Novo Nome: %novoHostname%
     echo ======================================================  
-    set /p opcao=Confirma ? 1- Sim 2- Renomear 3- Voltar
-    if %opcao%==1
-        wmic computersystem where name="%computername%" call rename="%novoHostname%"
-        goto:reinializarWindows
-    else if %opcao%==2
-        goto:alterarHostname
-    else if %opcao%==3
-        goto:menu
-    else
-        echo Opcao Invalida 
-        pause
-        goto:alterarHostname
+    set /p opcao=Confirma ? 1- Sim 2- Renomear 3- Voltar 
+    
+    if %opcao%==1 goto:alterarHostname
+    if %opcao%==2 goto:opcao1
+    if %opcao%==3 goto:menu
+    
+::Altera o HostName
+:alterarHostname 
+    wmic computersystem where name="%computername%" call rename name="%novoHostname%"
+    pause
+    goto:reinializarWindows
 
 :reinializarWindows
-    cls
     echo Vamos reinciar o computador %username%
     pause
     shutdown /r /t 0
