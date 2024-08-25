@@ -52,7 +52,7 @@ goto menu
     echo Instalando Programas Padrao x32...
     pause
     winget update
-    winget install Adobe.Acrobat.Reader.32-bit CodecGuide.K-LiteCodecPack.Full 
+    winget install Adobe.Acrobat.Reader.32-bit CodecGuide.K-LiteCodecPack.Full  --accept-source-agreements --accept-package-agreements  --accept-source-agreements --accept-package-agreements
     pause
 goto menu
 
@@ -67,7 +67,7 @@ goto menu
     echo ====================================================== 
     echo Instalando Programas Padrao x64...
     winget update
-    winget install Oracle.JavaRuntimeEnvironment Mozilla.Firefox Google.Chrome.EXE Adobe.Acrobat.Reader.64-bit RARLab.WinRAR CodecGuide.K-LiteCodecPack.Full --silent 
+    winget install Oracle.JavaRuntimeEnvironment Mozilla.Firefox Google.Chrome.EXE Adobe.Acrobat.Reader.64-bit RARLab.WinRAR CodecGuide.K-LiteCodecPack.Full  --accept-source-agreements --accept-package-agreements  --accept-source-agreements --accept-package-agreements 
     pause
 goto menu
 
