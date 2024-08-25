@@ -18,12 +18,6 @@ Baixe o código usando o git clone:
 git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 ```
 
-## ***Atenção***
-
-Execute os scripts com poderes de **Administrador**
-
-![Executar como Administrador](Screenshot_2.png)
-
 ## Instalação Programas Padrão - Programas Padrao.bat
 
 Script de automação de instalção de programas, usando o winget no moodo silencioso.
@@ -49,5 +43,11 @@ Inclui os seguintes programas:
 ## Alterar Nome do Computador -AlterarNomeComputador.bat
 
 Script para facilitar a troca de nome do Hostname, caso seja necessário.
+
+## ***Atenção***
+
+Execute esse script com poderes de **Administrador**
+
+![Executar como Administrador](Screenshot_2.png)
 
 [def]: https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab
