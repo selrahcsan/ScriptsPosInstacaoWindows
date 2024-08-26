@@ -28,6 +28,8 @@ Esse Script, não precisa de poderes de administrador
 
 ### Instalação de x84
 
+Procurando mais programas x86 para adicionar ao script.
+
 Inclui os seguintes programas:
 
 * Adobe Acrobat.Reader
