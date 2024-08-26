@@ -22,6 +22,10 @@ git clone https://github.com/selrahcsan/ScriptsPosInstacaoWindows
 
 Script de automação de instalção de programas, usando o winget no moodo silencioso.
 
+## ***Atenção***
+
+Esse Script, não precisa de poderes de administrador
+
 ### Instalação de x84
 
 Inclui os seguintes programas:
