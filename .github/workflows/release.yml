@@ -28,7 +28,6 @@ jobs:
           Release created for commit ${{ github.sha }}.
         draft: false
         prerelease: false
-        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
@@ -37,4 +36,3 @@ jobs:
         asset_path: ./release.zip
         asset_name: release.zip
         asset_content_type: application/zip
-        token: ${{ secrets.MEU_TOKEN }}
