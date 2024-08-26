@@ -1,24 +1,38 @@
-name: Create Release ZIP
+name: Release on Pull
 
 on:
-  release:
-    types: [published]
+  pull_request:
+    types: [closed]
 
 jobs:
-  build:
+  release:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Create ZIP file
-      run: zip -r release.zip .
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      with:
+        tag_name: ${{ github.sha }}
+        release_name: Release ${{ github.sha }}
+        body: |
+          Release created for commit ${{ github.sha }}.
+        draft: false
+        prerelease: false
 
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
       with:
-        upload_url: ${{ github.event.release.upload_url }}
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./release.zip
         asset_name: release.zip
         asset_content_type: application/zip
