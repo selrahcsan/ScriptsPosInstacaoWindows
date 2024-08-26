@@ -42,6 +42,8 @@ Inclui os seguintes programas:
 
 ## Alterar Nome do Computador -AlterarNomeComputador.bat
 
+![Menu Inicial](Screenshot_3.png)
+
 Script para facilitar a troca de nome do Hostname, caso seja necessário.
 
 ## ***Atenção***
