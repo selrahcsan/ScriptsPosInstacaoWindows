@@ -9,6 +9,7 @@ Esses scripts tem por finalidade, automatizar, o processo de Pós Instalação, 
 ## Dependências
 
 * [Winget][def]
+* Windows Update (Windows deve estar atualizado)
 
 ## Obtendo os Scripts
 
